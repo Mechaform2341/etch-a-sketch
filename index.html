@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Etch-a-Sketch</h1>
+    <label for="gridSize">Grid Size : <span id="sizeValue">16</span> x <span id = "sizeValue2">16</span></label>
+    <input type="range" id="gridSize" min="2" max="64" value="16" />
+    <div class="controls">
+        <button id="blackBtn">Black</button>
+        <button id="rainbowBtn">Rainbow</button>
+        <button id="shadeBtn">Shade</button>
+        <input type="color" id="colorPicker" value="#000000">
+        <button id="clearBtn">Clear</button>
+    </div>
+    <div class="flex-grid-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
